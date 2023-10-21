@@ -1,8 +1,10 @@
 import logo from "./logo.svg";
+import Nav from "./components/navbar"
 
 function App() {
   return (
-    <div className="bg-pink min-h-screen flex items-center justify-center">
+    <div>
+      <Nav />
       <div className="p-100 bg-blue-100 shadow-lg rounded-lg">hello</div>
     </div>
   );
