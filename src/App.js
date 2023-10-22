@@ -38,10 +38,11 @@ const images = [
 
 function App() {
   return (
-    <div class="bg-hero-pattern bg-cover bg-center h-screen content-between">
+    <div class=" bg-cover bg-center content-between">
       <Nav />
       <Element name="home">
-        <div class="w-[90%] select-none  mx-auto flex, flex-column">
+      <div class="bg-hero-pattern bg-cover bg-center h-screen content-between">
+        <div class="w-[90%] select-none mx-auto mt-20 flex, flex-column">
           <img
             class="w-[40%] mt-[2rem]"
             src={trades}
@@ -105,9 +106,17 @@ function App() {
             </div>
           </div>
         </div>
+        </div>
       </Element>
       <Element name="about">
-        <div>about page</div>
+        <div>about page
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        </div>
       </Element>
       <Element name="services">
         <div>services page</div>
