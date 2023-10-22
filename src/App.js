@@ -120,7 +120,7 @@ function App() {
         </div>
       </Element>
       <Element name="about">
-        <div className="w-[50%] mx-auto mt-10 p-20 border-2 border-[#FFFFFF30]">
+        <div className="w-[50%] mx-auto mt-10 p-10 border-2 border-[#FFFFFF30]">
           <YoutubeEmbed embedId="x5toTJtj-X0" />
         </div>
         
