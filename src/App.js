@@ -38,10 +38,9 @@ const images = [
 
 function App() {
   return (
-    <div class=" bg-cover bg-center content-between">
-      <Nav />
+    <div class="bg-hero-pattern bg-cover bg-center m-0, p-0 h-screen content-between">
       <Element name="home">
-      <div class="bg-hero-pattern bg-cover bg-center h-screen content-between">
+      <Nav />
         <div class="w-[90%] select-none mx-auto mt-20 flex, flex-column">
           <img
             class="w-[40%] mt-[2rem]"
@@ -64,12 +63,10 @@ function App() {
               </span>
               <span class="relative font-bold text-white">Get Started → </span>
             </a>
-            <button className="padding-minus-2px cursor-pointer mt-[2rem] mr-[1rem] border-2 border-black rounded-lg text-black transition duration-300 hover:border-gradient-to-r from-[#F89F1A] to-[#ED171B]">
+            
+           {/* <button className="padding-minus-2px cursor-pointer mt-[2rem] mr-[1rem] border-2 border-black rounded-lg text-black transition duration-300 hover:border-gradient-to-r from-[#F89F1A] to-[#ED171B]">
               Learn More
-            </button>
-            <button class="cursor-pointer mt-[2rem] bg-black text-white p-[1rem] rounded-lg transition duration-0 ease-in-out hover:duration-150 hover:bg-gradient-to-r from-[#F89F1A] to-[#ED171B]">
-              Get Started →
-            </button>
+            </button> */}
           </div>
           <div
             className="image-gallery"
@@ -105,7 +102,6 @@ function App() {
               <button></button>
             </div>
           </div>
-        </div>
         </div>
       </Element>
       <Element name="about">
