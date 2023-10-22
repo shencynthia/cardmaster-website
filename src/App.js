@@ -43,7 +43,7 @@ function App() {
       <Nav />
         <div class="w-[90%] select-none mx-auto mt-20 flex, flex-column">
           <img
-            class="w-[40%] mt-[2rem]"
+            class="pointer-events-none w-[40%] mt-[2rem]"
             src={trades}
             alt="become the jack of all cards"
           ></img>
@@ -55,7 +55,7 @@ function App() {
           </p>
           <div class="mt-[1rem] ">
             <a
-              href="#_"
+              href="https://devpost.com/software/cardmaster"
               class="relative inline-flex items-center justify-center px-8 py-5 overflow-hidden font-medium text-indigo-600 border-double border-2 border-[#ffffff8a] rounded-lg shadow-2xl group"
             >
               <span class="absolute top-0 left-0 w-40 h-40 -mt-10 -ml-3 transition-all duration-700 bg-[#fe644d] rounded-full blur-md ease"></span>
@@ -98,20 +98,27 @@ function App() {
                   </ul>
                 </div>
               ))}
-              <button></button>
+              <div className="">
+                  <div class="mt-[1rem] ">
+                <a
+                  href="https://devpost.com/software/cardmaster"
+                  class="relative inline-flex items-center justify-center px-8 py-5 overflow-hidden font-medium text-indigo-600 border-double border-2 border-[#ffffff8a] rounded-lg shadow-2xl group"
+                >
+                  <span class="absolute top-0 left-0 w-40 h-40 -mt-10 -ml-3 transition-all duration-700 bg-[#fe644d] rounded-full blur-md ease"></span>
+                  <span class="absolute inset-0 w-full h-full transition duration-1000 group-hover:rotate-180 ease-in-out">
+                  <span class="absolute bottom-0 left-0 w-24 h-24 -ml-10 bg-[#ed4c17] rounded-full blur-md"></span>
+                  <span class="absolute bottom-0 right-0 w-24 h-24 -mr-10 bg-[#ED171B] rounded-full blur-md"></span>
+                  </span>
+                  <span class="relative font-bold text-xl text-white">Get Started →</span>
+                </a>
+              </div>
+              </div>
             </div>
           </div>
         </div>
       </Element>
       <Element name="about">
-        <div>about page
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        </div>
+       
       </Element>
       <Element name="services">
         <div>services page</div>
