@@ -2,8 +2,8 @@ import logo from "../logo.svg";
 
 function Nav() {
   return (
-    <div className="container mx-auto flex justify-between items-center w-[90%] h-[10%] p-[1rem]">
-        <img src={logo} alt = "logo" className="h-[50%]"/> 
+    <div className="container mx-auto flex justify-between items-center w-[100%] h-[10%] p-[1rem]">
+        <img src={logo} alt = "logo" className="w-[20%]"/> 
         <ul class="flex space-x-4">
             <li><a href="#" className="text-black">Home</a></li>
             <li><a href="#" className="text-black">About</a></li>

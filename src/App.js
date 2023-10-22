@@ -13,16 +13,24 @@ function App() {
   return (
     <div class="bg-hero-pattern bg-cover bg-center h-screen content-between">
       <Nav />
-      <div class="w-[90%] mx-auto flex, flex-column">
+      <div class="w-[90%] select-none  mx-auto flex, flex-column">
         <img class="w-[40%] mt-[2rem]" src={trades} alt="become the jack of all cards"></img>
         <p class="text-2xl mt-[2rem]"> credit churning at your fingertips <br /> 
         get best credit cards rewards personalized for you </p>
-        <button class="cursor-pointer mt-[2rem] bg-black text-white p-[1rem]"> Get Started → </button>
-        <div className="image-gallery" class="flex flex-row flex-wrap justify-center mx-auto mt-[2rem] w-2/3 bg-white p-5 rounded-xl bg-opacity-30 backdrop-filter backdrop-blur-xl border-2 border-white border-opacity-20">
+        <div class="">
+        <button class="cursor-pointer mt-[2rem] mr-[1rem] border-2 border-black text-black p-[1rem]"> Learn More </button>
+        <button class="cursor-pointer mt-[2rem] bg-black text-white p-[1rem] hover:bg-"> Get Started → </button>
+
+        </div>
+        <div className="image-gallery" class="mx-auto mt-[4rem] w-2/3 bg-white p-5 rounded-xl bg-opacity-30 backdrop-filter backdrop-blur-xl border-2 border-white border-opacity-20">
+          <div class="w-[100%] flex justify-center mt-[1rem] mb-[1rem]">
+            <h1 class="font-bold inline text-3xl bg-gradient-to-r from-[#F89F1A] to-[#ED171B] bg-[length:100%_6px] bg-no-repeat bg-bottom">Recommendations based on your activity</h1>
+          </div>
+          <div class="flex flex-row flex-wrap justify-center">
           {images.map((image, index) => (
-            <div key={index} class="w-[40%] m-[0.5rem] bg-white p-5 rounded-xl bg-opacity-30 backdrop-filter backdrop-blur-xl border-2 border-white border-opacity-20">
+            <div key={index} class="w-[45%] m-[.5rem] bg-white p-5 rounded-xl bg-opacity-30 backdrop-filter backdrop-blur-xl border-2 border-white border-opacity-20">
               <Hover scale={1.05} perspective={900} speed={500}>
-                <img key={index} src={image.img} class="w-inherit shadow-none hover:shadow-xl border-none rounded-xl" />
+                <img key={index} src={image.img} class="w-inherit shadow-none hover:shadow-xl border-none rounded-xl hover:border" />
               </Hover>
               <h1 class="mt-[1rem] font-bold">{image.name}</h1>
               <h1 class="mt-[1rem] font-medium">Rewards offered: </h1>
@@ -31,9 +39,10 @@ function App() {
                   <li>{reward}</li>
               ))}
               </ul>
-
             </div>
           ))}
+          </div>
+          
         </div>
       </div>
     </div>
