@@ -87,6 +87,7 @@ function App() {
                       key={index}
                       src={image.img}
                       class="w-inherit shadow-none hover:shadow-xl border-none rounded-xl hover:border"
+                      alt="hello"
                     />
                   </Hover>
                   <h1 class="mt-[1rem] font-bold">{image.name}</h1>
