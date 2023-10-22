@@ -6,6 +6,8 @@ import c2 from "./img/c2.png";
 import c3 from "./img/c3.png";
 import c4 from "./img/c4.png";
 import { Element } from "react-scroll";
+import YoutubeEmbed from "./components/YoutubeEmbed";
+
 
 const images = [
   {
@@ -118,11 +120,16 @@ function App() {
         </div>
       </Element>
       <Element name="about">
-       
+        <div className="w-[50%] mx-auto mt-10 p-20 border-2 border-[#FFFFFF30]">
+          <YoutubeEmbed embedId="x5toTJtj-X0" />
+        </div>
+        
       </Element>
       <Element name="services">
-        <div>services page</div>
+        <div></div>
       </Element>
+      <br></br>
+      <br></br>
     </div>
   );
 }
