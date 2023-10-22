@@ -49,7 +49,7 @@ function App() {
           ></img>
           <p class="text-2xl mt-[2rem]">
             credit churning at your fingertips <br />
-            get <span class="bg-gradient-to-r from-[#ED171B] to-[#F89F1A] bg-[length:100%_6px] bg-no-repeat bg-bottom">  best credit cards and rewards personalized for you </span>
+            get best credit cards rewards personalized for you
           </p>
           <div class="flex flex-row justify-start w-full">
             <div class="mt-[1rem]">
