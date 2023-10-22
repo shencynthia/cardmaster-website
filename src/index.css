@@ -13,6 +13,10 @@ body {
   background-color: #FFC60C;
 }
 
+.padding-minus-2px {
+  padding: calc(1rem - 2px);
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

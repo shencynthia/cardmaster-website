@@ -18,8 +18,16 @@ function App() {
         <p class="text-2xl mt-[2rem]"> credit churning at your fingertips <br /> 
         get best credit cards rewards personalized for you </p>
         <div class="">
-        <button class="cursor-pointer mt-[2rem] mr-[1rem] border-2 border-black text-black p-[1rem]"> Learn More </button>
-        <button class="cursor-pointer mt-[2rem] bg-black text-white p-[1rem] hover:bg-"> Get Started → </button>
+        <a href="#_" class="relative inline-flex items-center justify-center p-4 px-5 py-3 overflow-hidden font-medium text-indigo-600 rounded-lg shadow-2xl group">
+          <span class="absolute top-0 left-0 w-40 h-40 -mt-10 -ml-3 transition-all duration-700 bg-[#fe644d] rounded-full blur-md ease"></span>
+          <span class="absolute inset-0 w-full h-full transition duration-1000 group-hover:rotate-180 ease-in-out">
+          <span class="absolute bottom-0 left-0 w-24 h-24 -ml-10 bg-[#ed4c17] rounded-full blur-md"></span>
+          <span class="absolute bottom-0 right-0 w-24 h-24 -mr-10 bg-[#ED171B] rounded-full blur-md"></span>
+          </span>
+          <span class="relative font-bold text-white">Get Started → </span>
+          </a>
+        <button className="padding-minus-2px cursor-pointer mt-[2rem] mr-[1rem] border-2 border-black rounded-lg text-black transition duration-300 hover:border-gradient-to-r from-[#F89F1A] to-[#ED171B]" > Learn More </button>
+        <button class="cursor-pointer mt-[2rem] bg-black text-white p-[1rem] rounded-lg transition duration-0 ease-in-out hover:duration-150 hover:bg-gradient-to-r from-[#F89F1A] to-[#ED171B]"> Get Started → </button>
 
         </div>
         <div className="image-gallery" class="mx-auto mt-[4rem] w-2/3 bg-white p-5 rounded-xl bg-opacity-30 backdrop-filter backdrop-blur-xl border-2 border-white border-opacity-20">
@@ -41,8 +49,9 @@ function App() {
               </ul>
             </div>
           ))}
+          <button></button>
           </div>
-          
+
         </div>
       </div>
     </div>
