@@ -47,25 +47,24 @@ function App() {
             src={trades}
             alt="become the jack of all cards"
           ></img>
-          <p class="text-2xl mt-[2rem]">
-            credit churning at your fingertips <br />
-            get best credit cards rewards personalized for you
+          <p class="text-2xl mt-[2rem] w-[35%]">
+            Elevate your rewards game with <b>credit churning at your fingertips.</b><br />
+            <br />
+            Receive credit card suggestions <b>tailor-made</b> for your needs. 
+            <br /><br />
           </p>
-          <div class="flex flex-row justify-start w-full">
-            <div class="mt-[1rem]">
-              <a
-                href="#_"
-                class="relative inline-flex items-center justify-center p-4 px-5 py-3 overflow-hidden font-medium text-indigo-600 rounded-lg shadow-2xl group"
-              >
-                <span class="absolute top-0 left-0 w-40 h-40 -mt-10 -ml-3 transition-all duration-700 bg-[#fe644d] rounded-full blur-md ease"></span>
-                <span class="absolute inset-0 w-full h-full transition duration-1000 group-hover:rotate-180 ease-in-out">
-                <span class="absolute bottom-0 left-0 w-24 h-24 -ml-10 bg-[#ed4c17] rounded-full blur-md"></span>
-                <span class="absolute bottom-0 right-0 w-24 h-24 -mr-10 bg-[#ED171B] rounded-full blur-md"></span>
-                </span>
-                <span class="relative font-bold text-white">Get Started →</span>
-              </a>
-
-            </div>
+          <div class="mt-[1rem] ">
+            <a
+              href="#_"
+              class="relative inline-flex items-center justify-center px-8 py-5 overflow-hidden font-medium text-indigo-600 border-double border-2 border-[#ffffff8a] rounded-lg shadow-2xl group"
+            >
+              <span class="absolute top-0 left-0 w-40 h-40 -mt-10 -ml-3 transition-all duration-700 bg-[#fe644d] rounded-full blur-md ease"></span>
+              <span class="absolute inset-0 w-full h-full transition duration-1000 group-hover:rotate-180 ease-in-out">
+              <span class="absolute bottom-0 left-0 w-24 h-24 -ml-10 bg-[#ed4c17] rounded-full blur-md"></span>
+              <span class="absolute bottom-0 right-0 w-24 h-24 -mr-10 bg-[#ED171B] rounded-full blur-md"></span>
+              </span>
+              <span class="relative font-bold text-xl text-white">Get Started →</span>
+            </a>
           </div>
           <div
             className="image-gallery"
