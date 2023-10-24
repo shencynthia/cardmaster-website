@@ -8,7 +8,6 @@ import c4 from "./img/c4.png";
 import { Element } from "react-scroll";
 import YoutubeEmbed from "./components/YoutubeEmbed";
 
-
 const images = [
   {
     img: c1,
@@ -41,8 +40,9 @@ const images = [
 function App() {
   return (
     <div class="bg-hero-pattern bg-cover bg-center m-0, p-0 h-screen content-between">
-      <Element name="home">
       <Nav />
+
+      <Element name="home">
         <div class="w-[90%] select-none mx-auto mt-20 flex, flex-column">
           <img
             class="pointer-events-none w-[40%] mt-[2rem]"
@@ -50,10 +50,13 @@ function App() {
             alt="become the jack of all cards"
           ></img>
           <p class="text-2xl mt-[2rem] w-[35%]">
-            Elevate your rewards game with <b>credit churning at your fingertips.</b><br />
+            Elevate your rewards game with{" "}
+            <b>credit churning at your fingertips.</b>
             <br />
-            Receive credit card suggestions <b>tailor-made</b> for your needs. 
-            <br /><br />
+            <br />
+            Receive credit card suggestions <b>tailor-made</b> for your needs.
+            <br />
+            <br />
           </p>
           <div class="mt-[1rem] ">
             <a
@@ -62,10 +65,12 @@ function App() {
             >
               <span class="absolute top-0 left-0 w-40 h-40 -mt-10 -ml-3 transition-all duration-700 bg-[#fe644d] rounded-full blur-md ease"></span>
               <span class="absolute inset-0 w-full h-full transition duration-1000 group-hover:rotate-180 ease-in-out">
-              <span class="absolute bottom-0 left-0 w-24 h-24 -ml-10 bg-[#ed4c17] rounded-full blur-md"></span>
-              <span class="absolute bottom-0 right-0 w-24 h-24 -mr-10 bg-[#ED171B] rounded-full blur-md"></span>
+                <span class="absolute bottom-0 left-0 w-24 h-24 -ml-10 bg-[#ed4c17] rounded-full blur-md"></span>
+                <span class="absolute bottom-0 right-0 w-24 h-24 -mr-10 bg-[#ED171B] rounded-full blur-md"></span>
               </span>
-              <span class="relative font-bold text-xl text-white">Get Started →</span>
+              <span class="relative font-bold text-xl text-white">
+                Get Started →
+              </span>
             </a>
           </div>
           <div
@@ -101,19 +106,21 @@ function App() {
                 </div>
               ))}
               <div className="">
-                  <div class="mt-[1rem] ">
-                <a
-                  href="https://devpost.com/software/cardmaster"
-                  class="relative inline-flex items-center justify-center px-8 py-5 overflow-hidden font-medium text-indigo-600 border-double border-2 border-[#ffffff8a] rounded-lg shadow-2xl group"
-                >
-                  <span class="absolute top-0 left-0 w-40 h-40 -mt-10 -ml-3 transition-all duration-700 bg-[#fe644d] rounded-full blur-md ease"></span>
-                  <span class="absolute inset-0 w-full h-full transition duration-1000 group-hover:rotate-180 ease-in-out">
-                  <span class="absolute bottom-0 left-0 w-24 h-24 -ml-10 bg-[#ed4c17] rounded-full blur-md"></span>
-                  <span class="absolute bottom-0 right-0 w-24 h-24 -mr-10 bg-[#ED171B] rounded-full blur-md"></span>
-                  </span>
-                  <span class="relative font-bold text-xl text-white">Get Started →</span>
-                </a>
-              </div>
+                <div class="mt-[1rem] ">
+                  <a
+                    href="https://devpost.com/software/cardmaster"
+                    class="relative inline-flex items-center justify-center px-8 py-5 overflow-hidden font-medium text-indigo-600 border-double border-2 border-[#ffffff8a] rounded-lg shadow-2xl group"
+                  >
+                    <span class="absolute top-0 left-0 w-40 h-40 -mt-10 -ml-3 transition-all duration-700 bg-[#fe644d] rounded-full blur-md ease"></span>
+                    <span class="absolute inset-0 w-full h-full transition duration-1000 group-hover:rotate-180 ease-in-out">
+                      <span class="absolute bottom-0 left-0 w-24 h-24 -ml-10 bg-[#ed4c17] rounded-full blur-md"></span>
+                      <span class="absolute bottom-0 right-0 w-24 h-24 -mr-10 bg-[#ED171B] rounded-full blur-md"></span>
+                    </span>
+                    <span class="relative font-bold text-xl text-white">
+                      Get Started →
+                    </span>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -123,13 +130,7 @@ function App() {
         <div className="w-[50%] mx-auto mt-10 p-10 border-2 border-[#FFFFFF30]">
           <YoutubeEmbed embedId="x5toTJtj-X0" />
         </div>
-        
       </Element>
-      <Element name="services">
-        <div></div>
-      </Element>
-      <br></br>
-      <br></br>
     </div>
   );
 }

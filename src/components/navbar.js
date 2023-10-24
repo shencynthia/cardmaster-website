@@ -26,16 +26,6 @@ const Nav = () => {
             About
           </ScrollLink>
         </li>
-        <li>
-          <ScrollLink
-            to="services"
-            smooth={true}
-            duration={500}
-            className="text-black text-lg font-bold cursor-pointer"
-          >
-            Contact
-          </ScrollLink>
-        </li>
       </ul>
     </div>
   );
